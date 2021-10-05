@@ -14,10 +14,10 @@ function wpGetOptions(context) {
   return context.query;
 }
 
-function server(path, name) {
+function server(dir, name) {
   const url = `http://localhost:8080/`;
   connect()
-    .use(serveStatic(path))
+    .use(serveStatic(dir))
     .listen(8080, () => {
       console.log(`Server running on ${url} ...`);
       open(url + name);
