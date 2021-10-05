@@ -32,7 +32,7 @@ module.exports = function (content) {
   generateFonts(fontConfig)
     .then(() => {
       if (preview && onComplete) {
-        onComplete();
+        onComplete(fontConfig);
       }
       console.log('> Fonts Compiled!');
       callback(null, '');
