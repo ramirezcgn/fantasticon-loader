@@ -6,7 +6,7 @@
 
 A Webpack loader that generates fonts from your SVG icons and allows you to use your icons in your HTML.
 
-`fantasticon-loader` uses the [`fantasticon`](https://github.com/ramirezcgn/fantasticon) plugin to create fonts in any format. It also generates CSS files so that you can use your icons directly in your HTML, using CSS classes.
+`fantasticon-loader` uses the [`@ramirezcgn/fantasticon`](https://github.com/ramirezcgn/fantasticon) plugin to create fonts in any format. It also generates CSS files so that you can use your icons directly in your HTML, using CSS classes.
 
 ## Installation
 

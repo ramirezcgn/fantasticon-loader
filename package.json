@@ -1,6 +1,6 @@
 {
   "name": "fantasticon-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A WebPack loader to automatically generate font files and CSS to make your own icon font",
   "repository": "ramirezcgn/fantasticon-loader",
   "main": "index.js",
