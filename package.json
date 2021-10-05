@@ -1,0 +1,35 @@
+{
+  "name": "fantasticon-loader",
+  "version": "0.0.1",
+  "description": "A WebPack loader to automatically generate font files and CSS to make your own icon font",
+  "repository": "ramirezcgn/fantasticon-loader",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache ./"
+  },
+  "keywords": [
+    "font",
+    "webfont",
+    "iconfont",
+    "web",
+    "icon",
+    "fantasticon",
+    "generator",
+    "webpack",
+    "loader"
+  ],
+  "author": "ramirezcgn",
+  "license": "MIT",
+  "dependencies": {
+    "@ramirezcgn/fantasticon": "^1.2.0"
+  },
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "loader-utils": "^2.0.0",
+    "open": "^8.2.1",
+    "prettier": "^2.4.1",
+    "serve-static": "^1.14.1"
+  }
+}
