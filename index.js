@@ -1,5 +1,5 @@
 const { getOptions } = require('loader-utils');
-const { generateFonts } = require('fantasticon');
+const { generateFonts } = require('@ramirezcgn/fantasticon');
 const NativeModule = require('module');
 
 function wpGetOptions(context) {
