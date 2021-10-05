@@ -27,14 +27,14 @@ Add this rule to your Webpack config:
     {
       loader: 'fantasticon-loader',
       options: {
-        preview: false
+        runOnComplete: false
       }
     },
   ]
 }
 ```
 
-preview: Launch a static server for the generated html file if was add as option.
+runOnComplete: runs "onComplete" callback if it was added as option.
 
 Then you have to require the configuration file:
 
@@ -92,7 +92,8 @@ module.exports = {
     absoluteFilePath, // `string` - Example: '/var/icons/sub/dir/foo.svg'
     relativeFilePath, // `string` - Example: 'foo.svg'
     index // `number` - Example: `0`
-  }) => [index, basename].join('_') // '0_foo'
+  }) => [index, basename].join('_'), // '0_foo'
+  onComplete: (fontConfig) => console.log('complete: ', fontConfig),
 };
 ```
 

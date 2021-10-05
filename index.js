@@ -24,14 +24,14 @@ module.exports = function (content) {
     rawFontConfig = module.exports;
   }
 
-  const { preview = false, ...options } = wOptions;
+  const { runOnComplete = false, ...options } = wOptions;
   const { onComplete = null, ...rawOptions } = rawFontConfig;
   var fontConfig = Object.assign({}, options, rawOptions);
 
   console.log('> Compiling Fonts!');
   generateFonts(fontConfig)
     .then(() => {
-      if (preview && onComplete) {
+      if (runOnComplete && onComplete) {
         onComplete(fontConfig);
       }
       console.log('> Fonts Compiled!');
