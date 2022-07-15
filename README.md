@@ -1,3 +1,5 @@
+> ### :warning: **Deprecated in favour of its complete re-write - please use [fantasticon-webpack-plugin](https://github.com/ramirezcgn/fantasticon-webpack-plugin) instead**
+
 # fantasticon-loader
 
 [![npm](https://img.shields.io/npm/v/fantasticon-loader.svg)](https://www.npmjs.com/package/fantasticon-loader)
@@ -105,3 +107,7 @@ The loader will then generate:
 #### Configuration options
 
 See [fantasticon#configuration-file](https://github.com/ramirezcgn/fantasticon#configuration-file)
+
+### License
+
+Copyright (c) 2021 Nicolas Ramirez - Released under the [MIT license](https://github.com/ramirezcgn/fantasticon-loader/blob/master/LICENSE)
